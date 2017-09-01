@@ -4,7 +4,7 @@ int main()
     int n;
     int count = 0;
      printf("Enter an integer: ");
-    scanf("%lld", &n);
+    scanf("%d", &n);
     while(n != 0)
     {
      n /= 10;
