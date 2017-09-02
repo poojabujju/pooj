@@ -13,7 +13,7 @@ int main()
     {
         for(i=1; i<=n; ++i)
         {
-            f *= i;              // f = f*i;
+            f *= i;        
         }
         printf("F of %d = %llu", n, f);
     }
